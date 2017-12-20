@@ -1,0 +1,16 @@
+{
+  "sourceCode": "MDL",
+  "destinationCode": "RGN",
+  "k7Passengers": [
+    {
+      "passengerType": "AD",
+      "count": 1
+    }
+  ],
+  "dateFlexibility": true,
+  "depertureDate": "2017/12/01",
+  "returnDate": "2017/12/03",
+  "myanmarCitizen": false,
+  "seamen": false,
+  "roundTrip": true
+}
