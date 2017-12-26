@@ -17,5 +17,21 @@ public class DecoratorTest {
         doublePapperRoseBouquet = new PaperWrapper(doublePapperRoseBouquet);
         doublePapperRoseBouquet = new RipponBow(doublePapperRoseBouquet);
         System.out.println(doublePapperRoseBouquet.getDescription() + "-> $" + doublePapperRoseBouquet.cost());
+
+        new DecoratorTest.Hello();
+        new com.my.designpatterns.structural.decorator.Hello();
+    }
+
+    static class Hello {
+        public Hello() {
+            System.out.println("Returning from inside DecoraterTest.Hello()");
+        }
+    }
+}
+
+class Hello
+{
+    public Hello() {
+        System.out.println("Returning from outside DecoraterTest.Hello()");
     }
 }
